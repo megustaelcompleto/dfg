@@ -25,7 +25,7 @@
     background-color: rgb(91, 171, 88);
     border-radius: 15px;
     border: 5px solid rgb(255, 255, 255);
-    width: 600px;
+    width: 750px;
 }
 
 .no-contiene
@@ -46,7 +46,7 @@
 
 .caja
 {
-    width: 80px;
+    width: 70px;
     padding: 10px;
     text-align: center;
     font-size: 24px;

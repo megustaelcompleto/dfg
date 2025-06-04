@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sumar</title> 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script> 
         <link rel="stylesheet" href="css/menu_sumar.css"> 
         <link rel="stylesheet" href="css/sumar.css"> 
         <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script> 
@@ -24,6 +24,7 @@
                     <li><a href="restar.php">Restar</a></li> 
                     <li><a href="multiplicacion.php">Multiplicar</a></li> 
                     <li><a href="division.php">División</a></li> 
+                    <li><a href="mixto.php">Mixtas</a></li> 
                     <li><a href="index.php">Cerrar</a></li> 
                     <li><a href="autor.html">Autor</a></li> 
                 </ul> 
@@ -35,9 +36,7 @@
             <p>
                 <h1>Sumar</h1>
             </p>
-            <div class="botones">
-                <button class="instrucciones">Instrucciones</button>
-            </div>
+
 
             <!-- Elaboramos una tabla de 5 columnas y 5 filas --> 
             <table> 
@@ -96,6 +95,11 @@
             </div> 
             <!-- fin visualizar resultado --> 
         </div> 
-        <script src="js/sumar.js"></script>
+        <script src="js/sumar.js">
+            function reproduciraudio() {
+            const audio = document.getElementById("miAudio");
+            audio.play();
+            }
+        </script>
     </body> 
     </html>

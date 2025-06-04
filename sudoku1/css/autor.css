@@ -1,9 +1,13 @@
-body
-{
-    background-image: url(fondologin.jpg);
-    background-size: cover;
-}
-
+    body  
+    { 
+        min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */ 
+        display: flex; /* Convierte el body en un contenedor flex para centrar su contenido */ 
+        justify-content: center; /* Centra horizontalmente el contenido del body */ 
+        align-items: center; /* Centra verticalmente el contenido del body */ 
+        background-image: url(fondologin.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
 .divautor
 {
     background-color: rgb(237, 249, 161);
@@ -13,7 +17,6 @@ body
     height: 350px;
     padding: 15px;
     margin: 0 auto;
-    margin-top: 180px;
     text-align: center;
     box-shadow: 1px 1px 19px black;
 }
@@ -37,6 +40,6 @@ body
 
 img
 {
-    max-height: 60px;
-    max-width: 60px;
+    max-height: 40px;
+    max-width: 40px;
 }

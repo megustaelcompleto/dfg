@@ -24,6 +24,7 @@
                     <li><a href="restar.php">Restar</a></li> 
                     <li><a href="multiplicacion.php">Multiplicar</a></li> 
                     <li><a href="division.php">División</a></li> 
+                    <li><a href="mixto.php">Mixtas</a></li> 
                     <li><a href="index.php">Cerrar</a></li> 
                     <li><a href="autor.html">Autor</a></li> 
                 </ul> 
